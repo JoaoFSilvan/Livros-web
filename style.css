@@ -35,10 +35,12 @@ body {
     color: white;
 }
 
-.hero2 {
-    background: linear-gradient(0deg, #4a90e2, #6c5ce7);
-    padding: 100px 20px;
-    color: white;
+.hero--small {
+    padding: 50px 20px;
+}
+
+.hero--large {
+    padding: 90px 20px;
 }
 
 .hero-text {
@@ -75,12 +77,16 @@ body {
     justify-content: space-evenly;
 }
 
+.imagem {
+    display: block;
+    transform: translateX(-20px);
+}
+
 .box {
-    padding: 35px;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    padding: 25px 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .books {
